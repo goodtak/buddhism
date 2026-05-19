@@ -33,7 +33,7 @@
         /* 詩詞區塊樣式 */
         .poem-section {
             text-align: center;
-            margin-bottom: 60px;
+            margin-bottom: 40px;
         }
         .poem-content {
             font-size: 1.4em;
@@ -46,7 +46,23 @@
         .poem-author {
             font-size: 0.95em;
             color: #888;
-            font-style: normal;
+            margin-bottom: 20px;
+        }
+        /* 註釋區塊樣式 */
+        .note-box {
+            text-align: left;
+            background-color: #fcf8f2;
+            padding: 20px;
+            border-left: 4px solid #8b4513;
+            margin: 0 auto 40px;
+            max-width: 600px;
+            font-size: 0.95em;
+        }
+        .note-title {
+            font-weight: bold;
+            color: #8b4513;
+            margin-bottom: 5px;
+            display: block;
         }
         /* 分隔線 */
         .divider {
@@ -63,7 +79,6 @@
             padding-top: 20px;
             border-top: 1px solid #eee;
         }
-        /* 返回首頁連結 */
         .back-link {
             display: block;
             text-align: center;
@@ -82,16 +97,23 @@
 <div class="content-card">
     <h1>詩詞匯集</h1>
 
+    <!-- 第一首與註釋 -->
     <div class="poem-section">
         <div class="poem-content">
             不令別人煩惱，是慈悲。<br>
             不令自己煩惱，是智慧。
         </div>
         <div class="poem-author">作者: 佚名</div>
+        
+        <div class="note-box">
+            <span class="note-title">註: 慈悲</span>
+            「慈悲」是佛教核心教義，意為給予眾生安樂（慈）與拔除眾生痛苦（悲），後泛指仁慈、憐憫與寬恕的心境。它代表以平等、無私的態度對待他人，特別是對處於苦難中的人給予同情與幫助，是一種高於普通同情心的、清淨的仁愛美德。
+        </div>
     </div>
 
     <div class="divider"></div>
 
+    <!-- 第二首 -->
     <div class="poem-section">
         <div class="poem-content">
             身是菩提樹，<br>
@@ -100,10 +122,16 @@
             勿使惹塵埃。
         </div>
         <div class="poem-author">作者: 唐代初 神秀（約606-706）</div>
+    
+        <div class="note-box">
+            <span class="note-title">註: 菩提樹</span>
+            原名「畢缽羅樹」(梵語Pippala）, 原產於印度、尼泊爾等地。
+為了紀念佛陀在此樹下覺悟成道, 信徒便將這種樹改稱為「菩提樹」,「菩提」二字源自梵文 Bodhi 的音譯, 在佛教教義中代表「覺悟」、「智慧」或「正覺」的意思。特徵: 心形葉, 葉片尾端有一條非常優雅細長、如小尾巴一般的「滴水葉尖」（約佔整塊葉子長度的四分之一到一半）。香港佛教醫院正門及門診部對開種有三棵著名的菩提樹，是 1966 年由時任佛教聯合會副會長從印度小心帶回幼苗培育至今，已有超過 50 年歷史。
+  </div>
     </div>
-
     <div class="divider"></div>
 
+    <!-- 第三首 -->
     <div class="poem-section">
         <div class="poem-content">
             菩提本無樹，<br>
@@ -115,7 +143,7 @@
     </div>
 
     <footer>
-        更新日期:2026年4月29日
+        更新日期:2026年5月19日
     </footer>
 </div>
 
